@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-/* Altura completa y diseño base */
 html, body, #root {
   height: 100%;
   margin: 0;
@@ -11,14 +10,12 @@ html, body, #root {
   flex-direction: column;
 }
 
-/* Layout general */
 .app-layout {
   display: flex;
   flex-direction: column;
   min-height: 100%;
 }
 
-/* Contenido principal */
 .main-content {
   flex: 1;
   display: flex;
@@ -27,7 +24,7 @@ html, body, #root {
   align-items: center;
 }
 
-/* Container genérico */
+/* Generic container */
 .container {
   width: min(100% - 30px, 1080px);
   margin-inline: auto;
@@ -47,7 +44,7 @@ html, body, #root {
   align-items: center;
 }
 
-/* Navegación */
+/* Navegation */
 .nav-links {
   display: flex;
   gap: 1.5rem;
@@ -62,7 +59,7 @@ html, body, #root {
 /* Banner */
 .banner {
   text-align: center;
-  padding: 0 1rem 3rem 1rem; /* ← Aquí está el cambio */
+  padding: 0 1rem 3rem 1rem;
   background: linear-gradient(to right, #4facfe, #00f2fe);
   color: white;
   width: 100%;
