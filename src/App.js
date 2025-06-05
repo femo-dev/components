@@ -6,10 +6,10 @@ import './css/index.css';
 
 function App() {
   const galleryImages = [
-    "/images/image1.jpg",
-    "/images/image2.jpeg",
-    "/images/image3.jpeg",
-    "/images/image4.png",
+    process.env.PUBLIC_URL + "/images/image1.jpg",
+    process.env.PUBLIC_URL + "/images/image2.jpeg",
+    process.env.PUBLIC_URL + "/images/image3.jpeg",
+    process.env.PUBLIC_URL + "/images/image4.png",
   ];
 
   return (
