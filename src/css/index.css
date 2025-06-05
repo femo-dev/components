@@ -17,6 +17,11 @@ html, body, #root {
   flex-direction: column;
 }
 
+html, body {
+  overflow-x: hidden; 
+  overflow-y: auto;
+}
+
 .app-layout {
   display: flex;
   flex-direction: column;
